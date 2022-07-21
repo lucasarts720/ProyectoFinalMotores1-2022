@@ -48,7 +48,7 @@ public class PlatformerManager : MonoBehaviour
     {
         isPlaying = false;
         panelLose.gameObject.SetActive(true);
-        Destroy(player);
+        Destroy(player.gameObject);
     }
     public void WinGame()
     {
